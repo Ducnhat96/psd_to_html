@@ -1,57 +1,57 @@
 body {
 	font-family: 'Lato', sans-serif;
 }
-.header {
+.Header {
 	position: relative;
     background-image: url('../images/banner.png');
     padding-bottom: 100px;
     padding-top:30px;
     z-index: 1;
 }
-.header .navbar-toggler-icon {
+.Header .navbar-toggler-icon {
 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-.header .navbar-light .navbar-brand {
+.Header .navbar-light .navbar-brand {
 	color: #fff;
 	font-size: 30px;
 	font-weight: 900;
 }
-.header .navbar-light .navbar-brand span {
+.Header .navbar-light .navbar-brand span {
 	color: #ed145b;
 }
-.header .navbar-light .navbar-collapse ul li a{
+.Header .navbar-light .navbar-collapse ul li a{
 	color: #fff;
 	font-weight: 900;
 }
-.header .navbar-light .navbar-collapse ul li a:visited {
+.Header .navbar-light .navbar-collapse ul li a:visited {
     color: #fff;
 }
-.header .navbar-light .navbar-collapse ul li a:active{
+.Header .navbar-light .navbar-collapse ul li a:active{
 	color: #ed145b;
 	font-weight: 900;
 }
 /*Header Text Template========================================= start Fix OK*/
-.header .text_template {
+.Header .text_template {
 	text-align: center;
 }
-.header .text_template h4{
+.Header .text_template h4{
 	color: #fff;
 	text-transform: uppercase;
 	margin-top: 80px;
 	font-size: 35px;
 }
-.header .text_template hr {
+.Header .text_template hr {
 	display: block;
     height: 1px;
     width: 208px;
     border-top: 1px solid #ed145b;
 }
-.header .text_template p {
+.Header .text_template p {
 	color: #fff;
 	margin-top: 20px;
 	font-size: 16pt;
 }
-.header .text_template .btn {
+.Header .text_template .btn {
   background-color: #ed145b;
   width: 180px;
   height: 50px;
@@ -132,8 +132,8 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 }
 /*fix Our_Services OK =============================================*/
 
-.carousel-caption h1 {
-	font-size: 100px;
+.carousel-caption .Double_quotes {
+	font-size: 80px;
 	color: #ed145b;
 	font-weight: bold;
 	font-family: 'DroidSerif-Bold.ttf';
